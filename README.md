@@ -15,6 +15,6 @@ This is a repository of of data science projects completed by myself for academi
 - Application(s) used: SQL-SAS for data cleaning and transformation; data modelling and forecasting using Tableau.
 
 **Project Files:**
-- [Raw Dataset]()
+- [Raw Dataset](https://github.com/tlieva/data-science-portfolio/blob/ebfc325ac993e6fa471a74271a18ee6543072ec5/JPMorgan%20Chase%20Branch%20Optimization/JPmorgan_chase_raw.csv)
 - [Analytical File](https://github.com/tlieva/data-science-portfolio/blob/acf6dc130980d67847dd2846329669854ec5e79f/JPMorgan%20Chase%20Branch%20Optimization/JPMorgan-Branch-Optimization-Analytical-File.sas)
-- [Interactive Dashboard]()
+- [Interactive Dashboard](https://public.tableau.com/views/JPMorgan_ChaseStory_16537215416810/JPMorgan_Chase?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
