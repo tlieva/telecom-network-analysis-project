@@ -16,5 +16,5 @@ This is a repository of of data science projects completed by myself for academi
 
 **Project Files:**
 - [Raw Dataset]()
-- [Analytical File]([https://github.com/tlieva/data-science-portfolio/blob/a82b146a50d059a297352dd347339da829d1d477/JPMorgan-Branch-Optimization-Analytical-File](https://github.com/tlieva/data-science-portfolio/blob/acf6dc130980d67847dd2846329669854ec5e79f/JPMorgan%20Chase%20Branch%20Optimization/JPMorgan-Branch-Optimization-Analytical-File.sas)
+- [Analytical File](https://github.com/tlieva/data-science-portfolio/blob/acf6dc130980d67847dd2846329669854ec5e79f/JPMorgan%20Chase%20Branch%20Optimization/JPMorgan-Branch-Optimization-Analytical-File.sas)
 - [Interactive Dashboard]()
