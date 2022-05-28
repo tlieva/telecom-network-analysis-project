@@ -14,7 +14,7 @@ IANA (repository of network traffic based on port numbers and protocols), and an
 - Application(s) used: Python, Tableau
 
 **Project Files:**
-- [Sample Dashboard (redacted for privacy)] (https://github.com/tlieva/data-science-portfolio/blob/0e3c2581cb0fb0a5fe742f33824dfdbc340cce33/Network-Analysis-%20Dashboard.pdf)
+- [Sample Dashboard (redacted for privacy)](https://github.com/tlieva/data-science-portfolio/blob/0e3c2581cb0fb0a5fe742f33824dfdbc340cce33/Network-Analysis-%20Dashboard.pdf)
 
 
 
