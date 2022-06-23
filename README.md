@@ -6,7 +6,7 @@ This is a repository of data science projects completed for academic, self-learn
 
 ## Content
 ### Data Analysis Projects
-**1. Telecom Strategic AI & Machine Learning Appplication (Capstone Project):** Self-direct field group project done in collaboration with a telecommunication service provider. Final end-product included the following to optimize network service recommendations to clients based on observed traffic micro trends:
+**1. Telecommunication Network Analysis (Capstone Project):** Self-direct field group project done in collaboration with a telecommunication service provider. Final end-product included the following to optimize network service recommendations to clients based on observed traffic micro trends:
 - A static analytical model of network telemetry data as framework for future real-time analysis for live level data integration
 - Interactive dashboard using internal network telemetry data for network traffic categorization, network re-classification in reference to
 IANA (repository of network traffic based on port numbers and protocols), and analysis of servers/IoT that are taking bandwidth
