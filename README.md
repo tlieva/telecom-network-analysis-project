@@ -4,10 +4,6 @@
 
 
 
-## Content
-### Data Analysis & Visualization Projects
-1. [**JP Morgan Chase & Co. Branch Optimization:**](https://github.com/tlieva/JPM-branch-optimization-project.git) collaborative term project completed in analyzing a sample of the firm's retail deposits data at the branch level from 2010 to 2016, with the goal of providing branch optimization strategies for 9% increase in customer retention and overall bank growth via top-down approach.
-
 2. [**Telecommunication Network Analysis (Capstone Project):**] Self-direct field group project done in collaboration with a telecommunication service provider. Final end-product included the following to optimize network service recommendations to clients based on observed traffic micro trends:
 - A static analytical model of network telemetry data as framework for future real-time analysis for live level data integration
 - Interactive dashboard using internal network telemetry data for network traffic categorization, network re-classification in reference to
