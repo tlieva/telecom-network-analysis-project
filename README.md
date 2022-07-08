@@ -1,7 +1,7 @@
-# Data Science Portfolio
+# Telecom Network Analysis Project
 
 ## Introduction
-This is a repository of data science projects completed for academic, self-learning, and professional purposes. Projects are primarily completed using Python Jupyter Notebook, SAS, and in R programming.
+
 
 
 ## Content
