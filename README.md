@@ -13,8 +13,9 @@ This included the following **interactive dashboard** using internal network tel
 
 **Project File(s):** 
 - [Sample Dashboard-PDF](https://github.com/tlieva/telecom-network-analysis-project/blob/95027fdb2711fd70b8ae50e492a2074def011bcd/Network-Analysis-%20Dashboard.pdf)
+- [Sample Code-PDF](https://github.com/tlieva/telecom-network-analysis-project/blob/f252bb684fc855ac6800ca92fa2a5d43ed8c0728/Network_Analytical_File_Sample_Code.pdf)
 
-_NB: For purposes of privacy and protecting the identities of individuals, sample dashboard is redacted to remove identifying information_
+_NB: For purposes of privacy and protecting the identities of individuals, sample files are in PDF format and is redacted to remove identifying information_
 
 
 ## Summary of Methodology
