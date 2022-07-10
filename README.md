@@ -1,8 +1,10 @@
 # Telecom Network Analysis Capstone Project
 
-This is a repository for a self-direct capstone project done in collaboration with a telecommunication service provider based in Vancouver, BC CAN. This was completed as part my post-graduate studies in Analytics for Business Decision-Making at George Brown College (BUS 4045	Data Project Capstone Project), where my team and I had the opportunity to work for a client in support of a data-driven business decision. Output of the project was structured as a series of reports and final presentation to the faculty and client through the various stages of the engagement with the client. 
+This is a repository for a self-direct capstone project done in collaboration with a telecommunication service provider based in Vancouver, BC CAN. The project was completed as part my post-graduate studies in Analytics for Business Decision-Making at George Brown College (BUS 4045	Data Project Capstone Project), where my team and I had the opportunity to work for a client in support of a data-driven business decision. 
 
-#### Objective:
+Output of the project was structured as a series of reports and final presentation to the faculty and client through the various stages of the engagement with the client. 
+
+### Objective:
 My team and I aimed to provide our client a static analytical model of network telemetry data as framework for future real-time analysis for live level data integration that would provide our client a tool that would help optimize their network service recommendations to customers based on observed traffic micro-trends in improving customer services. 
 
 This included the following **interactive dashboard** using internal network telemetry data for _network traffic categorization_, _network re-classification in reference to IANA_ (repository of network traffic based on port numbers and protocols), and _analysis of peak times in data use_. We also developed an **RFM scoring-based marketing analysis tool** for customer segmentation in identifying target customer segment based on network usage, frequency, and number of connections.
@@ -31,6 +33,8 @@ Based on our preliminary assessment of the data, converstions with our client, a
 
 _**NOTE!** For the purpose of the project, each source IP address was defined as a unique customer in the network._
 
+Additional derived variables for network analysis that were also created. This included identifying the traffic type and code based on source protocol and port numbers, and getting the aggregated total of bytes transferred in a network by each source IP and number of connections made for each respective customer. We also wanted to measure the relative delivery ratio of the incoming bytes relative to bytes sent, where an invariably high number indicates unusual behaviour, and can be flagged for analysis. A time series was created as a result to identify peak time uses for each IP address, and a sample is shown in the [PDF](https://github.com/tlieva/telecom-network-analysis-project/blob/95027fdb2711fd70b8ae50e492a2074def011bcd/Network-Analysis-%20Dashboard.pdf).
+
 For subsequent customer segmentation, we used a RECENY, FREQUENCY, AND MONETARY scoring approach in developing our own UFM analysis, where we looked to assign a labelled UFM score using three key variables:
 1. **Usage** of network defined as the sum of total bytes used for each unique source IP
 2. **Frequency** of the source IP appearing in the network
@@ -38,16 +42,14 @@ For subsequent customer segmentation, we used a RECENY, FREQUENCY, AND MONETARY 
 
 Customers were then assigned a value level based on their respective quantile in which they reside in as determined by their aggregated UFMscore. Lower quantiles were classified as no value or low, top two quantiles were classified as high or medium.
 
-#### UFM Level: 
+#### UFM Level
 The marketing segment assigned to customers based on UFMScore. 
 - Lower scores were labeled 'Possible Customer Loss' or 'Needs Attention'. 
 - Higher scores are labeled as 'Potential Sales' and 'Require Upgrade'.
 
 <img width="931" alt="Screen Shot 2022-07-09 at 8 05 17 PM" src="https://user-images.githubusercontent.com/106416383/178126456-4f95dde9-7daa-4b86-a2d6-9dfb5629416b.png">
 
-To rationalize our derived variables for customer segmentation, we had first conducted a correlation analysis on 5 variables of interest in determination of variables to be used for segmentation. This included: the total bytes, time duration (td), count ismc (count of macs), bytes per second, and average bytes per mac for each source IP address (unique customer). Based on association found between number of connections in a network with total network usage and length of time duration, they were further used for RFM-approach analysis.
-
-
-## Summary Data Analysis & Findings
+#### Profile of usage based on UFM level
+<img width="444" alt="Screen Shot 2022-07-09 at 8 15 17 PM" src="https://user-images.githubusercontent.com/106416383/178126616-8ea35ce1-3748-44af-a96b-a674471a69f5.png">
 
 
