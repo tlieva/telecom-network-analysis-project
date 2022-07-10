@@ -16,20 +16,20 @@ _NB: For purposes of privacy and protecting the identities of individuals, sampl
 
 
 ## Summary of Methodology
-Due to computational limitations, a sample dataset was obtained from the client containing only 15 minutes of network data for analysis. 
+Due to computational limitations, a sample dataset was obtained from the client containing only **15 minutes of network data** for analysis. 
 
 Subsequent data exploration, cleaning, and processing was completed using Python JupyterNotebook. The purpose was to ensure that data was usable for further analysis of the network data, and creating traffic classification based on the data provided. Network traffic _re-classification_ was completed in reference to the Internet Assigned Numbers Authority (IANA) which maintains a repository of protocols and port numbers it has assigned. Further data modelling and visualization was completed in Tableau.
 
 Based on our preliminary assessment of the data, converstions with our client, and knowledge supplemented by external research, the following source variables of interest were identified to be pertinent in achieving our objectives:
-**Time variables:** ts (time start), te (time end), td (time duration)
-**Packets:** ipkt (incoming packets), opkt (outgoing packets)
-**Bytes:** ibyt (incoming bytes), obyt (outgoing bytes)
-**Protocol:** pr (protocol)
-**Ports:** sp (source port), dp (destination port)
-**IP Address:** sa (source IP address), da (destination IP address)
-**MAC addresses:** ismc (input source mac), odmc (output destination mac), osmc (output source mac), idmc (input destination mac)
+- **Time variables:** ts (time start), te (time end), td (time duration)
+- **Packets:** ipkt (incoming packets), opkt (outgoing packets)
+- **Bytes:** ibyt (incoming bytes), obyt (outgoing bytes)
+- **Protocol:** pr (protocol)
+- **Ports:** sp (source port), dp (destination port)
+- **IP Address:** sa (source IP address), da (destination IP address)
+- **MAC addresses:** ismc (input source mac), odmc (output destination mac), osmc (output source mac), idmc (input destination mac)
 
-_For the purpose of the project, each source IP address was defined as a unique customer in the network._
+_**NOTE!** For the purpose of the project, each source IP address was defined as a unique customer in the network._
 
 For subsequent customer segmentation, we used a RECENY, FREQUENCY, AND MONETARY scoring approach in developing our own UFM analysis, where we looked to assign a labelled UFM score using three key variables:
 1. **Usage** of network defined as the sum of total bytes used for each unique source IP
@@ -38,9 +38,12 @@ For subsequent customer segmentation, we used a RECENY, FREQUENCY, AND MONETARY 
 
 Customers were then assigned a value level based on their respective quantile in which they reside in as determined by their aggregated UFMscore. Lower quantiles were classified as no value or low, top two quantiles were classified as high or medium.
 
-**UFM Level:** the marketing segment assigned to customers based on UFMScore. 
+#### UFM Level: 
+The marketing segment assigned to customers based on UFMScore. 
 - Lower scores were labeled 'Possible Customer Loss' or 'Needs Attention'. 
 - Higher scores are labeled as 'Potential Sales' and 'Require Upgrade'.
+
+<img width="931" alt="Screen Shot 2022-07-09 at 8 05 17 PM" src="https://user-images.githubusercontent.com/106416383/178126456-4f95dde9-7daa-4b86-a2d6-9dfb5629416b.png">
 
 To rationalize our derived variables for customer segmentation, we had first conducted a correlation analysis on 5 variables of interest in determination of variables to be used for segmentation. This included: the total bytes, time duration (td), count ismc (count of macs), bytes per second, and average bytes per mac for each source IP address (unique customer). Based on association found between number of connections in a network with total network usage and length of time duration, they were further used for RFM-approach analysis.
 
