@@ -34,7 +34,10 @@ Based on our preliminary assessment of the data, converstions with our client, a
 
 _**NOTE!** For the purpose of the project, each source IP address was defined as a unique customer in the network._
 
-Additional derived variables for network analysis that were also created. This included identifying the traffic type and code based on source protocol and port numbers, and getting the aggregated total of bytes transferred in a network by each source IP and number of connections made for each respective customer. We also wanted to measure the relative delivery ratio of the incoming bytes relative to bytes sent, where an invariably high number indicates unusual behaviour, and can be flagged for analysis. A time series was created as a result to identify peak time uses for each IP address, and a sample is shown in the [PDF](https://github.com/tlieva/telecom-network-analysis-project/blob/95027fdb2711fd70b8ae50e492a2074def011bcd/Network-Analysis-%20Dashboard.pdf).
+Additional **derived variables** for network analysis that were also created. This included identifying the **traffic type and code** based on source protocol and port numbers, and getting the aggregated **total of bytes** transferred in a network by each source IP and **number of connections** made for each respective customer. We also wanted to measure the **delivery ratio of the incoming bytes relative to outgoing bytes**, where an invariably high number indicates unusual behaviour, and can be flagged for analysis. A time series was created as a result to identify peak time uses for each IP address, as shown below:
+
+<img width="1011" alt="Screen Shot 2022-07-16 at 2 53 11 AM" src="https://user-images.githubusercontent.com/106416383/179343860-bfbaef3d-5470-4b04-98db-2477a03c71ad.png">
+
 
 For subsequent customer segmentation, we used a RECENY, FREQUENCY, AND MONETARY scoring approach in developing our own UFM analysis, where we looked to assign a labelled UFM score using three key variables:
 1. **Usage** of network defined as the sum of total bytes used for each unique source IP
@@ -43,14 +46,17 @@ For subsequent customer segmentation, we used a RECENY, FREQUENCY, AND MONETARY 
 
 Customers were then assigned a value level based on their respective quantile in which they reside in as determined by their aggregated UFMscore. Lower quantiles were classified as no value or low, top two quantiles were classified as high or medium.
 
+
 #### UFM Level
 The marketing segment assigned to customers based on UFMScore. 
 - Lower scores were labeled 'Possible Customer Loss' or 'Needs Attention'. 
 - Higher scores are labeled as 'Potential Sales' and 'Require Upgrade'.
 
+<img width="549" alt="Screen Shot 2022-07-16 at 2 55 04 AM" src="https://user-images.githubusercontent.com/106416383/179343921-5a109bc6-83fc-4218-93d8-34e3c79cbf3c.png">
+
 <img width="931" alt="Screen Shot 2022-07-09 at 8 05 17 PM" src="https://user-images.githubusercontent.com/106416383/178126456-4f95dde9-7daa-4b86-a2d6-9dfb5629416b.png">
 
-#### Profile of usage based on UFM level
+## Profile of usage based on UFM level
 <img width="444" alt="Screen Shot 2022-07-09 at 8 15 17 PM" src="https://user-images.githubusercontent.com/106416383/178126616-8ea35ce1-3748-44af-a96b-a674471a69f5.png">
 
 
