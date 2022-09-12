@@ -1,6 +1,6 @@
 # Telecom Network Analysis Capstone Project
 
-This is a repository for my self-directed capstone project done in collaboration with a telecommunication service provider based in Vancouver BC, Canada. The project was completed as part my post-graduate studies in Analytics for Business Decision-Making at George Brown College (BUS 4045	Data Project Capstone Project), where my team and I had the opportunity to work for a client in support of a data-driven business decision. 
+Repository for self-directed capstone project in support of data-driven business decision. Project was completed in collaboration with a telecommunication provider based in Vancouver BC, Canada, and completed in a team of four.
 
 Output of the project was structured as a series of reports and final presentation to the faculty and client through various stages of engagement with the client. 
 
