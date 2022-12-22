@@ -1,11 +1,11 @@
 # Telecom Network Analysis Capstone Project
 
-Repository for self-directed capstone project in support of data-driven business decision. Project was completed in collaboration with a telecommunication provider based in Vancouver BC, Canada, and completed in a team of four.
+Repository for self-directed capstone project in support of data-driven business decision. Project was completed in collaboration with a telecommunication provider in analyzing network telemetry data in improving service recommendations.
 
 Output of the project was structured as a series of reports and final presentation to the faculty and client through various stages of engagement with the client. 
 
 ### Objective:
-My team and I aimed to provide our client a static analytical model of network telemetry data as framework for future real-time analysis for live level data integration that would provide our client a tool that would help optimize their network service recommendations to customers based on observed traffic micro-trends in improving customer services. 
+My team and I aimed to provide our client a static analytical model of network telemetry data as framework for future real-time analysis for live level data integration that would provide our client a tool that would help optimize their network service recommendations to customers based on customer data usage in improving customer services. 
 
 This included the following **interactive dashboard** using internal network telemetry data for _network traffic categorization_, _network re-classification in reference to IANA_ (repository of network traffic based on port numbers and protocols), and _analysis of peak times in data use_. We also developed an **RFM scoring-based marketing analysis tool** for customer segmentation in identifying target customer segment based on network usage, frequency, and number of connections.
 
