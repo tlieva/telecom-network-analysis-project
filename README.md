@@ -1,6 +1,6 @@
 # Telecom Network Analysis Capstone Project
 
-Repository for self-directed capstone project in support of data-driven business decision. Project was completed in collaboration with a telecommunication provider in analyzing network telemetry data in improving service recommendations.
+Repository for self-directed academic capstone project in support of data-driven business decision. Project was completed in collaboration with a telecommunication provider in analyzing network telemetry data in improving service recommendations.
 
 Output of the project was structured as a series of reports and final presentation to the faculty and client through various stages of engagement with the client. 
 
